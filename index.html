@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AJS_INTRO</title>
+</head>
+<body>
+    <!-- <div ng-init="firstName='pasupathi'">
+        <h1>
+            My Name is <span ng-bind="firstName"></span>
+        </h1>
+    </div> -->
+    <!-- <div>
+        <p>My first expression: {{5+5}}</p>
+    </div> -->
+    <!-- <div ng-init="quantity=1;cost=5">
+        <p>Total in dollar: {{quantity*cost}}</p>
+    </div> -->
+    <!-- <div ng-init="firstName='Brahmaih';lastName='pasupathi'"> -->
+        <!-- <p>My full name is : {{firstName + " " + firstName}}</p> -->
+        <!-- <p>My full name is : <span ng-bind="firstName + ' '  + lastName"></span></p> -->
+    <!-- </div> -->
+    <!-- <div ng-init="person={firstName:'Brahmaih',lastName:'pasupathi'}"> -->
+         <!-- <p>The name is {{person.lastName}}</p> -->
+         <!-- <p>The name is <span ng-bind="person.firstName"></span></p>
+    </div> -->
+    <!-- <div ng-init="points=[1,15,19,8,10]"> -->
+        <!-- <p>The third result is {{points[2]}}</p> -->
+        <!-- <p>The third result is <span ng-bind="points[3]"></span></p>
+    </div> -->
+    <!-- <div w3-test-directive></div> -->
+    <div ng-controller="myCtrl">
+        My name is {{firstName + " " + lastName}}.
+    </div>
+    <script src="js/angular.min.js"></script>
+    <script src="js/firstCtrl.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>
